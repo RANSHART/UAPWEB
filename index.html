@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UAP</title>
+    <style>
+      table {
+        width: 200px;
+        border-collapse: separate;
+      }
+      th,
+      td {
+        border: 1px solid gold;
+        padding: 5px;
+        text-align: center;
+        color: black;
+      }
+      h2 {
+        color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Kode</th>
+          <th>Barang</th>
+          <th>Harga</th>
+        </tr>
+        <tr>
+          <th>001</th>
+          <th>Barang A</th>
+          <th>10.000</th>
+        </tr>
+        <tr>
+          <th>002</th>
+          <th>Barang B</th>
+          <th>20.000</th>
+        </tr>
+        <tr>
+          <th>003</th>
+          <th>Barang C</th>
+          <th>30.000</th>
+        </tr>
+      </thead>
+    </table>
+
+    <h2>Inputan user</h2>
+    <table>
+      <tbody>
+        <tr>
+          <th>Masukkan Kode</th>
+          <th>:</th>
+          <th>
+            <textarea name="" id="kode_barang" cols="10" rows="1"></textarea>
+          </th>
+        </tr>
+        <tr>
+          <th>Banyaknya Barang</th>
+          <th>:</th>
+          <th>
+            <textarea name="" id="banyak_barang" cols="10" rows="1"></textarea>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <button id="submit">Submit</button>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="js.js"></script>
+  </body>
+</html>
